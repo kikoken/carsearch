@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "nodemon": "^1.19.0",
     "parcel": "^1.12.4",
     "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
     "sass": "^1.24.4"
   },
   "jest": {
