@@ -1,0 +1,36 @@
+doctype html
+html(lang='es')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Buscador de Autos
+  body
+    main.SearchApp
+      header
+        h1 BUSCADOR DE AUTOS
+      section.search-bar
+        article
+          .search-bar--selector
+            label(for='smarca') Marca
+            select#smarca(name='smarca')
+          .search-bar--selector
+            label(for='sanno') Año
+            select#sanno(name='sanno')
+          .search-bar--selector
+            label(for='smin') Precio min
+            select#smin(name='smin')
+          .search-bar--selector
+            label(for='smax') Precio max
+            select#smax(name='smax')
+        article
+          .search-bar--selector
+            label(for='spuertas') Puertas
+            select#spuertas(name='spuertas')
+          .search-bar--selector
+            label(for='stransmision') Transmisión
+            select#stransmision(name='stransmision')
+          .search-bar--selector
+            label(for='scolor') Color
+            select#scolor(name='scolor')
+    script(src='./app/app.js')
